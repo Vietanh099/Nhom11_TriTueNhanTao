@@ -58,5 +58,5 @@ def a_star(edges, heuristics, start, goal, output_file):
         out.write("\nKhông tìm thấy đường đi!\n")
 
 if __name__ == "__main__":
-    edges, heuristics, start, goal = read_input(r"./Nhom11_TriTueNhanTao/AStar_NhanhCan/input.txt")
-    a_star(edges, heuristics, start, goal, "./Nhom11_TriTueNhanTao/AStar_NhanhCan/output.txt")
+    edges, heuristics, start, goal = read_input(r"./AStar_NhanhCan/input.txt")
+    a_star(edges, heuristics, start, goal, "./AStar_NhanhCan/output.txt")
